@@ -50,6 +50,19 @@ input.addEventListener('keypress', function(event) {
 
     console.log('${item} trovato ${max} volte');
 });
+
+1. array dev'essere dichiarato come appunto un array
+2. sostituire add con push
+3. sostituire text con innerHTML
+4. sostituire push con append
+5. dichiarare count come valore numerico
+6. sostituire const con let
+7. aggiungere array.length
+8. sostituire j++
+9. aggiungere le graffe
+10. sostituire querySelector
+11.inserire punto per la classe
+12.aggiungere backtic
 */
 
 const input = document.querySelector('input');
