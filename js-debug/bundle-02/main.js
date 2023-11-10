@@ -115,7 +115,7 @@ function checkAccess() {
         grantAccess = true;
     }
 
-    if (grantAccess === true) {
+    if (grantAccess) {
         console.log('Accesso consentito!');
     } else {
         console.log('Accesso negato!');

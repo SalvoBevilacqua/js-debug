@@ -89,6 +89,7 @@ console.log(otherCars);
 il codice vuole creare degli array di oggetti che soddisfino le condizioni date dai filtri.
 avere quindi un array con tutte le auto a benzina, uno con quelle diesel ed uno con tutte le altre.
 manca una virgola fra alcuni oggetti interni all'array.
+alcuni elementi sono in maiuscolo.
 la prima arrow function è scritta in maniera errata.
 nel secondo filtro non serve la graffa.
 nel terzo filtro per avere "tutte le altre" devo usare AND e non OR
