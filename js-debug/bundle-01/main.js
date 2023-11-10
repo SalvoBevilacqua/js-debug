@@ -12,12 +12,12 @@
 
 // ESERCIZIO 1
 /*
-il ciclo stampa tutti i valori assunti da i.
-è logicamente errato in quanto la condizione di partenza non viene rispettata.
-
 for (let i = 0; i > 5; i++) {
     console.log(i);
-}    
+}
+
+il ciclo stampa tutti i valori assunti da i.
+è logicamente errato in quanto la condizione di partenza non viene rispettata.
 */
 
 for (let i = 0; i < 5; i++) {
@@ -26,14 +26,15 @@ for (let i = 0; i < 5; i++) {
 
 // ESERCIZIO 2
 /*
-se il numero è pari. somma 5 e ritorna il risultato.
-= 0 rappresenta un'assegnazione. un confronto richiede doppio o triplo zero a seconda del livello di confronto.
 function addIfEven(num) {
     if (num % 2 = 0) {
         return num + 5;
     }
     return num;
-}    
+}
+
+se il numero è pari. somma 5 e ritorna il risultato.
+= 0 rappresenta un'assegnazione. un confronto richiede doppio o triplo zero a seconda del livello di confronto.
 */
 
 function addIfEven(num) {
@@ -45,13 +46,14 @@ function addIfEven(num) {
 
 // ESERCIZIO 3
 /*
-il ciclo stampa tutti i valori assunti da i.
-la sintassi è errata, va usato il ";"
 function loopToFive() {
     for (let i = 0, i < 5, i++) {
         console.log(i);
     }
 }
+
+il ciclo stampa tutti i valori assunti da i.
+la sintassi è errata, va usato il ";"
 */
 
 function loopToFive() {
@@ -62,7 +64,6 @@ function loopToFive() {
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 /*
-la funzione vuole restituire un array con i soli numeri pari fra quelli contenuti in un array dato.
 function displayEvenNumbers() {
     let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
     let evenNumbers = [];
@@ -74,6 +75,9 @@ function displayEvenNumbers() {
     }
 }
 displayEvenNumbers(); // dovrebbe restituire [2,4,6,8]
+
+la funzione vuole restituire un array con i soli numeri pari fra quelli contenuti in un array dato.
+il confronto, il richiamo ai valori degli array e la condizione di uscita dal ciclo sono errati
 */
 
 function displayEvenNumbers() {
